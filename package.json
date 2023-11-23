@@ -1,8 +1,7 @@
 {
   "name": "orions-react-demo-1",
   "version": "0.1.0",
-  "homepage": "http://gfxpartner.com/orions-react/demo-1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@popperjs/core": "^2.11.0",
     "@testing-library/jest-dom": "^5.16.1",
