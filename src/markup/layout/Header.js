@@ -157,15 +157,24 @@ const Header = ({ type }) => {
               {type === "navigation-1" ? (
                 <>
                   <Link className="logo" to="/">
-                    <img src={logo} alt="orions-logo" />
+                    <img src={logo} alt="orions-logo" style={{ height: 62 }} />
                   </Link>
                   <Link className="logo-white" to="/">
-                    <img src={logo_white} alt="orions-logo" />
+                    <img
+                      src={logo_white}
+                      alt="orions-logo"
+                      style={{ height: 62 }}
+                    />
                   </Link>
                 </>
               ) : (
                 <Link to="/">
-                  <img src={logo} alt="orions-logo" />
+                  <img
+                    src={logo}
+                    alt="orions-logo"
+                    height={"20%"}
+                    width={"20%"}
+                  />
                 </Link>
               )}
             </div>
@@ -173,7 +182,12 @@ const Header = ({ type }) => {
               <div className="mobile-header">
                 <div className="logo">
                   <Link to="/">
-                    <img src={logo_white} alt="logo" />
+                    <img
+                      src={logo_white}
+                      alt="logo"
+                      height={"20%"}
+                      width={"20%"}
+                    />
                   </Link>
                 </div>
                 <ul>
@@ -192,20 +206,15 @@ const Header = ({ type }) => {
                   <Link to="/about" className="link-underline link-underline-1">
                     <span>About</span>
                   </Link>
-                  {/* <div className="child">
-                                        <ul>
-                                            <li>
-                                                <Link to="/about" className="link-underline">
-                                                    <span>About</span>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/privacy-policy" className="link-underline">
-                                                    <span>Privacy Policy</span>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </div> */}
+                </li>
+
+                <li className="has-child">
+                  <Link
+                    to="/privacy-policy"
+                    className="link-underline link-underline-1"
+                  >
+                    <span>Privacy Policy</span>
+                  </Link>
                 </li>
                 <li className="has-child">
                   <Link
@@ -287,6 +296,14 @@ const Header = ({ type }) => {
                     <span>Contact</span>
                   </Link>
                 </li>
+                {/* <div className="links">
+                  <a className="link-underline" href="tel:+91 9667599743">
+                    <span>+91 9667599743</span>
+                  </a>
+                </div> */}
+                {/* <a className="link-underline" href="tel:+91 9667599743">
+                  <span>+91 9667599743</span>
+                </a> */}
               </ul>
               <div className="social">
                 <h6>Follow</h6>

@@ -16,22 +16,23 @@ const Footer = () => {
               <div className="footer-row">
                 <div className="footer-detail">
                   <Link to="#">
-                    <img src={logo} alt="footer-logo" />
+                    <img src={logo} alt="footer-logo" style={{ height: 82 }} />
                   </Link>
                   <p className="c-grey-1">
-                    Orions is a universal app template that was designed to
-                    cater to most of the modern app landing page designs
-                    requirements.
+                    <h3 className="">Registered Office</h3>
+                    6TH, OFFICE-05, UNIT NO-SB/C/61/, Sohna Bypass, M3M URBAN
+                    SECTOR 67, Gurugram, Gurugram, Haryana, 122101
                   </p>
                   <div className="links">
                     <a
                       className="link-underline"
-                      href="mailto:hello@orions.com"
+                      href="mailto:contact@brokerapp.com
+                      "
                     >
-                      <span>hello@orions.com</span>
+                      <span>contact@brokerapp.com</span>
                     </a>
-                    <a className="link-underline" href="tel:+1-234-567-890">
-                      <span>+1 234 567 890</span>
+                    <a className="link-underline" href="tel:+91 9667599743">
+                      <span>+91 9667599743</span>
                     </a>
                   </div>
                 </div>
@@ -70,8 +71,14 @@ const Footer = () => {
                         to="https://instagram.com/brokerappofficial"
                         className="link-underline"
                       >
-                        <i className="fa fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                         <span>Instagram</span>
+                      </Link>
+                    </li>
+                    <li className="youtube">
+                      <Link to="#" className="link-underline">
+                        <i class="fa fa-youtube"></i>
+                        <span>You Tube</span>
                       </Link>
                     </li>
                   </ul>
@@ -121,7 +128,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link to="privacy-policy" className="link-underline">
-                        <span>Terms of Services</span>
+                        <span>Terms & Conditions</span>
                       </Link>
                     </li>
                     <li>
@@ -139,19 +146,23 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+
+          {/* <div className="row">
             <div className="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
-              <div className="footer-copyright c-grey-1">
+              <div className="footer-copyright c-grey-1 mt-5 my-5">
                 <h6>&copy; GFXPARTNER</h6>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div
+        {/* <div
           className="footer-pattern"
           style={{ backgroundImage: `url(${background_image_1})` }}
-        ></div>
+        ></div> */}
       </div>
+      <h6 className="mt-5" style={{ marginLeft: 570 }}>
+        &copy; GFXPARTNER
+      </h6>
     </footer>
   );
 };

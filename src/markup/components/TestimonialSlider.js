@@ -14,19 +14,19 @@ const TestimonialSlider = () => {
     {
       image: testimonial_image_1,
       testimony:
-        "“This app is wonderful dry male ceepeth good them their in which to days two deep has yielding throw darkness bring likeness fifth by darkness make face saw has under heaven forth saw there without lights app stars for him replenish fowl creature.”",
+        "“I've been using the property consultant app for my business, and I must say it has greatly simplified my workflow. The user interface is clean and intuitive, making it easy to navigate even for someone like me who isn't very tech-savvy”",
       name: "Jack William",
     },
     {
       image: testimonial_image_2,
       testimony:
-        "“This app is wonderful dry male ceepeth good them their in which to days two deep has yielding throw darkness bring likeness fifth by darkness make face saw has under heaven forth saw there without lights app stars for him replenish fowl creature.”",
+        "“The property listings are comprehensive and well-organized, making it easy to find relevant options for my clients. The app's search functionality is robust, allowing me to filter properties based on specific criteria, saving me valuable time.”",
       name: "Jack William",
     },
     {
       image: testimonial_image_3,
       testimony:
-        "“This app is wonderful dry male ceepeth good them their in which to days two deep has yielding throw darkness bring likeness fifth by darkness make face saw has under heaven forth saw there without lights app stars for him replenish fowl creature.”",
+        "“: The property consultant app has transformed my business operations. Its user-friendly interface ensures a hassle-free experience, even for those with limited tech proficiency. Notably reliable, the app's stability and speed contribute to efficient daily tasks, allowing me to respond promptly to client needs.”",
       name: "Jack William",
     },
   ];

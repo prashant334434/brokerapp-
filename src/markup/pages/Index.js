@@ -42,18 +42,28 @@ const Index = () => {
             <div className="row">
               <div className="col-lg-6 offset-lg-0 order-lg-1 col-10 offset-1 order-2">
                 <div className="hero-content">
-                  <h1 className="c-dark">Software solutions in your hands.</h1>
+                  <h3 className="c-dark">
+                    1# India’s First Social Media Platform for Realtors &
+                    Property Consultant
+                  </h3>
                   <p className="large c-grey">
-                    Orions is a universal app that helps you setup your apps in
-                    a beautiful and effective way to get more downloads across
-                    <b>Android</b> and <b>iOS</b> platforms.
+                    Introducing the No.1 Social Media Platform for Realtors &
+                    Property Consultants - BrokerApp, meticulously crafted for
+                    the exclusive use of real estate brokers and developers,
+                    empowering your business with unparalleled efficiency.
                   </p>
                   <DownloadButton />
                 </div>
               </div>
               <div className="col-lg-6 offset-lg-0 order-lg-2 col-10 offset-1 order-1">
                 <div className="hero-image">
-                  <img className="drop-shadow" src={hero_phone} alt="hero" />
+                  <img
+                    className="drop-shadow"
+                    src={hero_phone}
+                    alt="hero"
+                    height={"50%"}
+                    width={"50%"}
+                  />
                   <div className="hero-absolute-image">
                     <img src={artwork} alt="artwork" />
                   </div>
