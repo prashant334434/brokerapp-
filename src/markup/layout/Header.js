@@ -157,13 +157,13 @@ const Header = ({ type }) => {
               {type === "navigation-1" ? (
                 <>
                   <Link className="logo" to="/">
-                    <img src={logo} alt="orions-logo" style={{ height: 62 }} />
+                    <img src={logo} alt="orions-logo" style={{ height: 50 }} />
                   </Link>
                   <Link className="logo-white" to="/">
                     <img
                       src={logo_white}
                       alt="orions-logo"
-                      style={{ height: 62 }}
+                      style={{ height: 50 }}
                     />
                   </Link>
                 </>
@@ -203,25 +203,22 @@ const Header = ({ type }) => {
                   </Link>
                 </li>
                 <li className="has-child">
-                  <Link to="/about" className="link-underline link-underline-1">
-                    <span>About</span>
+                  <Link to="#" className="link-underline link-underline-1">
+                    <span>About Us</span>
                   </Link>
                 </li>
 
-                <li className="has-child">
+                {/* <li className="has-child">
                   <Link
                     to="/privacy-policy"
                     className="link-underline link-underline-1"
                   >
                     <span>Privacy Policy</span>
                   </Link>
-                </li>
+                </li> */}
                 <li className="has-child">
-                  <Link
-                    to="/features-1"
-                    className="link-underline link-underline-1"
-                  >
-                    <span>Features</span>
+                  <Link to="#" className="link-underline link-underline-1">
+                    <span>App Features</span>
                   </Link>
                   {/* <div className="child">
                     <ul>
@@ -248,14 +245,14 @@ const Header = ({ type }) => {
                     </ul>
                   </div> */}
                 </li>
-                <li className="has-child">
-                  <Link
+                {/* <li className="has-child"> */}
+                {/* <Link
                     to="/blog-1"
                     className="link-underline link-underline-1"
                   >
                     <span>Blog</span>
-                  </Link>
-                  {/* <div className="child">
+                  </Link> */}
+                {/* <div className="child">
                     <ul>
                       <li>
                         <Link to="/blog-1" className="link-underline">
@@ -279,21 +276,18 @@ const Header = ({ type }) => {
                       </li>
                     </ul>
                   </div> */}
-                </li>
-                <li>
+                {/* </li> */}
+                {/* <li>
                   <Link
                     to="/pricing"
                     className="link-underline link-underline-1"
                   >
                     <span>Pricing</span>
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link
-                    to="/contact"
-                    className="link-underline link-underline-1"
-                  >
-                    <span>Contact</span>
+                  <Link to="#" className="link-underline link-underline-1">
+                    <span>Contact Us</span>
                   </Link>
                 </li>
                 {/* <div className="links">

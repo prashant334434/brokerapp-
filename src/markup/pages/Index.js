@@ -17,7 +17,7 @@ import VideoLightBox from "../components/VideoLightBox";
 // images
 import hero_phone from "../../assets/images/hero-phone.png";
 import artwork from "../../assets/images/Artwork.png";
-import video_img from "../../assets/images/video-img.jpg";
+import video_img from "../../assets/images/vid.jpg";
 import background_image_1 from "../../assets/images/patterns/pattern-1.jpg";
 import background_image_2 from "../../assets/images/patterns/pattern-2.jpg";
 import feature_phone_1 from "../../assets/images/feature-section-1-phone.png";
@@ -122,12 +122,12 @@ const Index = () => {
                   <div className="section-heading section-heading-1 center-responsive c-white">
                     <div className="sub-heading upper ls-1">
                       <i className="las la-video"></i>
-                      <h5>our video</h5>
+                      <h5>Your Network Is your Net-Worth</h5>
                     </div>
                     <div className="main-heading">
                       <h1>
-                        Orions is a fast and secure app that was built for both
-                        Android and iOS platforms.
+                        BrokerApp is a fast and secure app that was built for
+                        both Android and iOS platforms.
                       </h1>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ const Index = () => {
                     />
 
                     <div className="play">
-                      <VideoLightBox URL="https://www.youtube.com/watch?v=WIl5F5rM5wQ" />
+                      <VideoLightBox URL="https://m.youtube.com/watch?v=H2rWdM-_RTo&feature=youtu.be" />
                     </div>
                   </figure>
                 </div>
@@ -174,11 +174,10 @@ const Index = () => {
                     subHeading="Rich and full of features."
                   />
                   <p className="c-grey">
-                    Seed doesn't he dry, male creepeth god them their in which
-                    by firmament to days two deep yielding darkness bring
-                    likeness.
+                    Reach a global audience of real estate experts under one
+                    roof to grow your business to new heights
                   </p>
-                  <div className="icon-text-group">
+                  {/* <div className="icon-text-group">
                     <div className="icon-text">
                       <i className="las la-server"></i>
                       <h4 className="c-dark">Unlimited Storage</h4>
@@ -195,8 +194,8 @@ const Index = () => {
                         cattle.
                       </p>
                     </div>
-                  </div>
-                  <Button to="/contact" content="Get Started" type="button-2" />
+                  </div> */}
+                  {/* <Button to="/contact" content="Get Started" type="button-2" /> */}
                 </div>
               </div>
               <div className="col-lg-5 offset-lg-0 order-lg-2 col-10 offset-1 order-1">
@@ -220,7 +219,7 @@ const Index = () => {
       {/* feature section - end */}
 
       {/* feature section - start */}
-      <div className="feature-section feature-section-1 feature-section-spacing-2">
+      {/* <div className="feature-section feature-section-1 feature-section-spacing-2">
         <div className="feature-section-wrapper">
           <div className="container">
             <div className="row gx-5">
@@ -284,11 +283,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* feature section - end */}
 
       {/* pricing section - start */}
-      <div className="pricing-section">
+      {/* <div className="pricing-section">
         <div className="pricing-section-wrapper">
           <div className="container">
             <div className="row">
@@ -316,7 +315,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* pricing section - end */}
 
       {/* testimonial section - start */}
@@ -344,7 +343,7 @@ const Index = () => {
       {/* testimonial section - end */}
 
       {/* faq section - start */}
-      <div className="faq-section">
+      {/* <div className="faq-section">
         <div className="faq-section-wrapper">
           <div className="container">
             <div className="row">
@@ -399,7 +398,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* faq section - end */}
 
       {/* screen section - start */}
@@ -449,7 +448,7 @@ const Index = () => {
       {/* screem section - end */}
 
       {/* blog section - start */}
-      <div className="blog-section">
+      {/* <div className="blog-section">
         <div className="blog-section-wrapper">
           <div className="container">
             <div className="row">
@@ -476,11 +475,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* blog section - end */}
 
       {/* cta section - start */}
-      <div className="cta-section">
+      {/* <div className="cta-section">
         <div className="cta-section-wrapper">
           <div className="container">
             <div className="row">
@@ -496,7 +495,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* cta section - end */}
 
       {/* contact form section - start */}
@@ -504,16 +503,16 @@ const Index = () => {
         <div className="contact-form-section-wrapper">
           <div className="container">
             <div className="row gx-5 contact-form-section-row">
-              <div className="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+              <div className="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
                 {/* contact form - start */}
                 <ContactForm1 />
                 {/* contact form - end */}
               </div>
-              <div className="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
-                {/* newsletter form - start */}
-                <ContactForm2 />
-                {/* newsletter form - end */}
-              </div>
+              {/* <div className="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1"> */}
+              {/* newsletter form - start */}
+              {/* <ContactForm2 /> */}
+              {/* newsletter form - end */}
+              {/* </div> */}
             </div>
           </div>
           <div className="contact-form-section-pattern">

@@ -25,7 +25,7 @@ import Preloader from "./components/Preloader";
 const Markup = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <CustomScrollbar />
       <div className="main-wrapper">
         {/* header - start */}

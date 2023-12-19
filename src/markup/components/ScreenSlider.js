@@ -38,7 +38,7 @@ const ScreenSlider = () => {
             <div className="screen-section-header">
               <SectionHeading
                 icon="las la-tablet"
-                heading="orions universal app"
+                heading="BrokerApp Features "
                 subHeading="Have a look at what’s inside the app."
               />
             </div>

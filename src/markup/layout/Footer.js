@@ -16,10 +16,10 @@ const Footer = () => {
               <div className="footer-row">
                 <div className="footer-detail">
                   <Link to="#">
-                    <img src={logo} alt="footer-logo" style={{ height: 82 }} />
+                    <img src={logo} alt="footer-logo" style={{ height: 70 }} />
                   </Link>
                   <p className="c-grey-1">
-                    <h3 className="">Registered Office</h3>
+                    <h4 className="">Registered Office</h4>
                     6TH, OFFICE-05, UNIT NO-SB/C/61/, Sohna Bypass, M3M URBAN
                     SECTOR 67, Gurugram, Gurugram, Haryana, 122101
                   </p>
@@ -77,7 +77,7 @@ const Footer = () => {
                     </li>
                     <li className="youtube">
                       <Link to="#" className="link-underline">
-                        <i class="fa fa-youtube"></i>
+                        <i class="fab fa-youtube"></i>
                         <span>You Tube</span>
                       </Link>
                     </li>
@@ -87,27 +87,27 @@ const Footer = () => {
                   <h6>Menu</h6>
                   <ul>
                     <li>
-                      <Link to="about" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>About</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="about" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>Our Team</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="features-1" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>Features</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="blog-1" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>Blog</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="about" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>How It Works</span>
                       </Link>
                     </li>
@@ -122,11 +122,6 @@ const Footer = () => {
                   <h6>Explore</h6>
                   <ul>
                     <li>
-                      <Link to="pricing" className="link-underline">
-                        <span>Pricing</span>
-                      </Link>
-                    </li>
-                    <li>
                       <Link to="privacy-policy" className="link-underline">
                         <span>Terms & Conditions</span>
                       </Link>
@@ -137,7 +132,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="contact" className="link-underline">
+                      <Link to="#" className="link-underline">
                         <span>Help Center</span>
                       </Link>
                     </li>
@@ -161,7 +156,8 @@ const Footer = () => {
         ></div> */}
       </div>
       <h6 className="mt-5" style={{ marginLeft: 570 }}>
-        &copy; GFXPARTNER
+        &copy; 2023 Copyright Being Tech Life Style Pvt Ltd | All Rights
+        Reserved
       </h6>
     </footer>
   );
