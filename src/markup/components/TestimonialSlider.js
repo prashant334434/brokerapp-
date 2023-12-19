@@ -5,9 +5,9 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // images
-import testimonial_image_1 from "../../assets/images/testimonial-slide-img-2.png";
-import testimonial_image_2 from "../../assets/images/testimonial-slide-img-1.png";
-import testimonial_image_3 from "../../assets/images/testimonial-slide-img-3.png";
+import testimonial_image_1 from "../../assets/images/sj.jpeg";
+import testimonial_image_2 from "../../assets/images/st.jpeg";
+import testimonial_image_3 from "../../assets/images/jb.jpeg";
 
 const TestimonialSlider = () => {
   const data = [
@@ -15,19 +15,19 @@ const TestimonialSlider = () => {
       image: testimonial_image_1,
       testimony:
         "“I've been using the property consultant app for my business, and I must say it has greatly simplified my workflow. The user interface is clean and intuitive, making it easy to navigate even for someone like me who isn't very tech-savvy”",
-      name: "Rohit Sharma",
+      name: "Saurab Jain",
     },
     {
       image: testimonial_image_2,
       testimony:
         "“The property listings are comprehensive and well-organized, making it easy to find relevant options for my clients. The app's search functionality is robust, allowing me to filter properties based on specific criteria, saving me valuable time.”",
-      name: "Mohit Aggarwal",
+      name: "Sidhartha Tyagi",
     },
     {
       image: testimonial_image_3,
       testimony:
         "“: The property consultant app has transformed my business operations. Its user-friendly interface ensures a hassle-free experience, even for those with limited tech proficiency. Notably reliable, the app's stability and speed contribute to efficient daily tasks, allowing me to respond promptly to client needs.”",
-      name: "Bhupender Kumar",
+      name: "Jaspreet Bhamra",
     },
   ];
 
@@ -60,7 +60,12 @@ const TestimonialSlider = () => {
                 <div className="image">
                   <div className="image-wrapper">
                     <div className="image-inner">
-                      <img src={element.image} alt="testimony" />
+                      <img
+                        src={element.image}
+                        alt="testimony"
+                        height={"100%"}
+                        width={"100%"}
+                      />
                     </div>
                   </div>
                 </div>

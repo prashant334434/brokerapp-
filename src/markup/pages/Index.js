@@ -62,7 +62,7 @@ const Index = () => {
                     src={hero_phone}
                     alt="hero"
                     height={"50%"}
-                    width={"50%"}
+                    width={"60%"}
                   />
                   <div className="hero-absolute-image">
                     <img src={artwork} alt="artwork" />
@@ -93,7 +93,7 @@ const Index = () => {
               {features.map((element, key) => {
                 return (
                   <div
-                    className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-10 offset-1"
+                    className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-10 offset-1 hieghtOffeature"
                     key={key}
                   >
                     <AppFeatureSingle
@@ -171,12 +171,24 @@ const Index = () => {
                   <SectionHeading
                     icon="las la-cog"
                     heading="app features"
-                    subHeading="Rich and full of features."
+                    subHeading="BrokerApp Are Rich and full of features."
                   />
                   <p className="c-grey">
                     Reach a global audience of real estate experts under one
                     roof to grow your business to new heights
                   </p>
+                  <br />
+                  <br />
+                  <ul>
+                    <li>Build Solid Network of upto 1 Million Connections</li>
+                    <li> Daily Listing of 2k+ Inventories.</li>
+                    <li>
+                      Access to 1K + Projects by renowned developers Globally.
+                    </li>
+                    <li> Access To Discounted Property Options.</li>
+                    <li> Reward Points - Opportunity To Earn Mercedes</li>
+                  </ul>
+
                   {/* <div className="icon-text-group">
                     <div className="icon-text">
                       <i className="las la-server"></i>
@@ -205,7 +217,7 @@ const Index = () => {
                     className="image"
                     alt="feature-fore"
                   />
-                  <img src={feature_phone_1} className="phone" alt="phone" />
+                  <img src={hero_phone} className="phone" alt="phone" />
                   <div className="background-pattern background-pattern-radius">
                     <BackgroundAnimation />
                     <div className="background-pattern-gradient"></div>
