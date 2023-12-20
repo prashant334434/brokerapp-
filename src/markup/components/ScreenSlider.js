@@ -68,6 +68,7 @@ const ScreenSlider = () => {
           }}
           centeredSlides={true}
           loop={true}
+          autoplay={true}
           breakpoints={{
             0: {
               slidesPerView: 1.8,

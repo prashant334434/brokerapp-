@@ -57,13 +57,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6 offset-lg-0 order-lg-2 col-10 offset-1 order-1">
                 <div className="hero-image">
-                  <img
-                    className="drop-shadow"
-                    src={hero_phone}
-                    alt="hero"
-                    height={"50%"}
-                    width={"60%"}
-                  />
+                  <img className="drop-shadow" src={hero_phone} alt="hero" />
                   <div className="hero-absolute-image">
                     <img src={artwork} alt="artwork" />
                   </div>
